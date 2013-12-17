@@ -1,0 +1,103 @@
+
+Problem 2-1
+-----------
+Write a function that finds the maximum of two Int's and then adds one to the answer.
+
+Problem 2-2
+-----------
+Write a function that trims off the first and last elements of a list if the length 
+of the list is greater than three. Otherwise, return the list unchanged. (The function
+that gets the length of a list is `length`).
+
+Problem 2-3
+-----------
+Write a function that gets the last and the third from the last elements of a list if
+the length is greater than three. Otherwise, return the list unchanged.
+
+Problem 2-4
+-----------
+Write a function that computes the binomial coefficient for two Int's. Return the
+correct value if the number of choices is less than or equal to the total number 
+in the group, and negative one otherwise. Hint: First define a function that computes
+the factorial of an Int. Two divide two floating point numbers, use (/), but to divide 
+two integers, use (div), where `div 6 2` equals 3. You can also write that with so-called
+``infix'' notation (you will read more about that later) as `6 \`div\` 2`.
+
+Problem 2-5
+-----------
+Write a function that computes the multinomial coefficient using a list of numbers 
+for the possible groupings. Return the correct value if the sum of the groups is 
+equal to the size of the total group, and negative one otherwise. Hint: Define
+a function that computes the product of the factorials that appear in the 
+denominator of the calculation using a list comprehension.
+
+Problem 2-6
+-----------
+Re-do problem 2-4 by calling the function you wrote in problem 2-5.
+
+Problem 2-7
+-----------
+Use list comprehensions to sum all the even multiples of three and five between one and
+one-thousand. This is Project Euler (http://projecteuler.net) Problem 1. You may 
+want to use the remainder function, `rem` where `rem 5 3` equals 2.
+
+Problem 2-8
+-----------
+Use list comprehensions to make a list of three element tuple that are all the 
+unique permutations of the numbers one to four. Recall, order counts in a permutation, 
+so (1,2,3) is distinct from (1,3,2).
+
+Problem 2-9
+-----------
+Use `zip` to index all the numbers of the alphabet (either case), starting with zero.
+
+Problem 2-10
+-----------
+Use the result of problem 2-9 in a list comprehension to compute the value of the
+sum of all the letter scores.
+
+Problem 2-11
+------------
+Make a list of all the vowels. Use either upper or lower case as you prefer (try both).
+
+Problem 2-12
+------------
+Make a list of all the consonants.
+
+Problem 2-13
+------------
+Use problems 2-10, 2-11, and 2-12, to sum all the letter scores from problem 2-9 for 
+all the vowels. Do the same for all the consonants.
+
+Problem 2-14
+------------
+Sum all of the numbers 1-9, 11-22, 34-51, 77-88, and 99-101.
+
+Problem 2-15
+------------
+Use a list comprehension to make the list [0,0,2,2,4,4 ... on to 100,100].
+
+Problem 2-16
+------------
+Write a function that takes a single argument and wraps it in a list. So, `f 1` would
+yield `[1]`.
+
+Problem 2-17
+------------
+Use the result of problem 2-16, or what you learned from it, to write a function 
+that uses a list comprehension to turn a list into a list of lists, where each element
+of the original list becomes a one element list. So, `f [1,2]` would yield `[[1],[2]]`.
+
+Problem 2-18
+------------
+Write a function that takes a String for an argument and returns ``is Rad!'' if the 
+argument is ``Earth'' and ``is Cool!'' if the argument is ``Mars'' and ``is Ok.'' 
+otherwise. Don't despair if your code looks a bit awkward; you'll learn more elegant 
+constructs for this sort of problem soon.
+
+Problem 2-19
+------------
+Use a list comprehension in a function that replaces every comma in a string with 
+a semicolon. So calling your function on ``the,quick,brown,fox'' should yield
+``the:quick:brown:fox''.
+
