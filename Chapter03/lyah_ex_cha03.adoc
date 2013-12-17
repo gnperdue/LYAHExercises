@@ -25,6 +25,7 @@ Problem 3-4
 Re-write the function from problem 3-3, but now use type variables. The `poisson` function
 should take a `Floating a` and an `Integral b` and return a `Floating a`. Evaluate
 the following expressions:
+
 * `:t poisson 1.0 0`
 * `:t poisson (1.0::Float) (0::Int)`
 * `:t poisson (1.0::Double) (0::Integer)`
