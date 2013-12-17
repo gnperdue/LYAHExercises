@@ -1,0 +1,33 @@
+
+Problem 3-1
+-----------
+
+If you didn't already, try to write type signatures for all the exercises from Chapter 02.
+Note, you should honestly try to write the signature at least once before ``cheating''
+and loading the function into GHCi and using the `:t` command. In general, you should 
+feel free to use `:t` frequently - it is a great way to learn the type system - but 
+it is always a good idea to try at least once on your own first.
+
+Problem 3-2
+-----------
+Write two factorial functions - one exactly like the example in the text, of type 
+`Integer -> Integer` and another one of type `Int -> Int`. (Give them different 
+names if you put them in the same file.) Evaluate both functions for the argument 
+``50'' and compare the results.
+
+Problem 3-3
+-----------
+Write a function that computes the probability mass function for the Poisson distribution.
+It should take a Double and an Integer and return a Double.
+
+Problem 3-4
+-----------
+Re-write the function from problem 3-3, but now use type variables. The `poisson` function
+should take a `Floating a` and an `Integral b` and return a `Floating a`. Evaluate
+the following expressions:
+* `:t poisson 1.0 0`
+* `:t poisson (1.0::Float) (0::Int)`
+* `:t poisson (1.0::Double) (0::Integer)`
+
+
+ 
