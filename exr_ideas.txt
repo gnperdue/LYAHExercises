@@ -4,3 +4,15 @@ Or better as types (aliases)?
 
 Write divide by 10 in point free style:
   flip div 10
+
+Recursion: the Djikstra method for GCD.
+
+Recursion: get the integer powers of a number. Do it again in tail-recursive form.
+
+Recursion: find if all the elements of a list are even.
+
+Recursion: find the maximum value in a list & find the minumum.
+
+Recursion + H.O.F. find the maximum or minimum in a list, pass in the comparison fn.
+
+IO: write a ``guess my number game'' that tracks the number of guesses made.
