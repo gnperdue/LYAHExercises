@@ -1,0 +1,24 @@
+
+Problem 4-1
+------------
+Recall this problem from Chapter 2: Write a function that takes a String for an argument and 
+returns ``is Rad!'' if the argument is ``Earth'' and ``is Cool!'' if the argument is ``Mars'' 
+and ``is Ok.'' otherwise. Re-write this function using guards. Make sure you write a type
+signature (always write a type signature for all the exercises).
+
+Problem 4-2
+-----------
+Rewrite the function from problem 4-1 using a `case` expression.
+
+Problem 4-3
+-----------
+Write a function that takes an integer argument between 1 and 9 (inclusive) and returns
+the result as a String. So, `f 1` would return ``One''. Write the function using guards
+and then again using a `case` expression.
+
+Problem 4-4
+-----------
+Write a function that takes a string and replaces all ``,'' characters with ``:'', all
+``:'' with ``;'', and all ``;'' with ``,''. So, ``the;quick:brown,fox'' should become
+``the,quick;brown:fox''.
+
