@@ -8,3 +8,9 @@ Problem 5-2
 Implement a function that takes a list of list of objects and ``flattens'' them into 
 one list of objects.
 
+Problem 5-3
+-----------
+Implement a function with this type signature using recursion and pattern matching:
+`f :: [(a,b)] -> [a]`. What does the type signature tell you about all the possible
+things this function might do?
+
