@@ -1,0 +1,10 @@
+
+Problem 5-1
+-----------
+Implement a function that finds the length of a list using recursion and pattern matching.
+
+Problem 5-2
+-----------
+Implement a function that takes a list of list of objects and ``flattens'' them into 
+one list of objects.
+
