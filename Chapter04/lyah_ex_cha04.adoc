@@ -22,3 +22,20 @@ Write a function that takes a string and replaces all ``,'' characters with ``:'
 ``:'' with ``;'', and all ``;'' with ``,''. So, ``the;quick:brown,fox'' should become
 ``the,quick;brown:fox''.
 
+Problem 4-5
+-----------
+Use `let` and `where` expressions, along with list comprehensions, to write a 
+function that takes a list of numbers and transforms it into two different lists,
+and zips them together. The first list should be one where each element becomes a product 
+of itself and itself minus one, and the other should be one where each element becomes
+a product of itself and one minus itself. 
+
+Problem 4-6
+-----------
+Write the ``Hello World'' of functional programming - a function that returns the nth
+Fibbonacci number. Look carefully at the definiiton of the `factorial` function 
+in this chapter. The Fibbonacci sequence begins with 1, 1 and each successive element is 
+the sum of the previous two. So the sequence goes 1, 1, 2, 3, 5, 8, 13, etc. (If you 
+are concerned about efficiency, don't be yet.)
+
+
