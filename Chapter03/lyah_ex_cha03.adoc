@@ -30,5 +30,13 @@ the following expressions:
 * `:t poisson (1.0::Float) (0::Int)`
 * `:t poisson (1.0::Double) (0::Integer)`
 
+Problem 3-5
+-----------
+To see type inference in action, open GHCi and check the type of the following functions
+
+* `let f x y = x + y`
+* `let g x y = x < y`
+* `let h x = product x`
+
 
  
