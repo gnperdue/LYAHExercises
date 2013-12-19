@@ -2,9 +2,6 @@
 Physics calculations with newtypes wrapping Doubles that have Meters, Seconds. 
 Or better as types (aliases)?
 
-Write divide by 10 in point free style:
-  flip div 10
-
 Recursion: the Djikstra method for GCD.
 
 Recursion: get the integer powers of a number. Do it again in tail-recursive form.
