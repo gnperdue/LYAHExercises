@@ -1,0 +1,23 @@
+
+Problem 6-1
+-----------
+Write a higher order function that takes an Integer and divides it by 10 using point free
+style.
+
+Problem 6-2
+-----------
+Write a function that takes a function with type `Double -> Double` and a list of
++Doubles+ and maps the function over the list. Test your result with a few functions
+like `f x = 2 x` and `g x = x * x`. Try passing the functions in as lambdas.
+
+Problem 6-3
+-----------
+Write a function that takes a list of numbers and a binary comparison function and uses 
+recursion to apply the function across list. Test your function with `max` and `min` and 
+make sure it behaves correctly.
+
+Problem 6-4
+-----------
+Re-implement the function from problem 6-3 with a right-fold.
+
+
