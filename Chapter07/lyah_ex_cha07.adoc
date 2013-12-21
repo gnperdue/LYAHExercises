@@ -1,0 +1,27 @@
+
+Problem 7-1
+-----------
+
+Compose a script in wich you import Data.List, Data.Map.Strict, Data.Set, and
+Data.Foldable.
+
+Problem 7-2
+-----------
+
+Compose a script like you wrote for problem 7-1, but do qualified imports.
+
+Problem 7-3
+-----------
+
+Compose another script where you import the same libraries as in problems 7-1 
+and 7-2, but this time import only one function from each module. Look at 
+http://hackage.haskell.org/ for some example functions.
+
+Problem 7-4
+-----------
+
+Compose yet another script importing the same modules as in the previous problems, 
+but this time hide a function for each module. Does it make sense to ``combine'' this 
+problem with the previous problem (i.e., import a specific set of functions but also
+hide some functions)?
+ 
