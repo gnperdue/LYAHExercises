@@ -25,3 +25,32 @@ but this time hide a function for each module. Does it make sense to ``combine''
 problem with the previous problem (i.e., import a specific set of functions but also
 hide some functions)?
  
+Problem 7-5
+-----------
+
+Create a module called ``Progressions.hs'' and export two functions, `arithmetic` and
+`geometric`. These functions represent the sums of the arithmetic and geometric series
+respectively. You don't need to fill in the functions for this exercise, just set
+them to be undefined like so: `arithmetic = undefined`. Write a script that imports 
+this module (if you defined the functions, test them).
+
+Problem 7-6
+-----------
+
+Create a directory and name it ``Numberary.'' Copy your ``Progressions.hs'' code from
+problem 7-5 into that directory. Edit the code so that it is part of the 
+`Numberary.Progressions` module. Write a script that imports this module (if you defined
+the functions, test them).
+
+Problem 7-7
+-----------
+
+Add a directory to ``Numberary'' called ``Combinatorics'' and add the binomial 
+and multinomial functions you wrote for Chapter 2 into that subdirectory. Make that
+code a module called ``Multinomials'' (so, the total will be
+`Numberary.Combinatorics.Multinomials`). Be sure you only export the `binomial` and 
+`multinomial` functions and not any helper functions. Write a script that imports this 
+module and tests the functions. Make sure that if you try to call any helper functions
+that the script will not load into GHCi.
+
+
