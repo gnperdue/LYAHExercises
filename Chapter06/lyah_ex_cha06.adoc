@@ -20,4 +20,27 @@ Problem 6-4
 -----------
 Re-implement the function from problem 6-3 with a right-fold.
 
+Problem 6-5
+-----------
+Write a program that computes the elements of Pascal's triangle using recursion. The 
+function should take an Integral argument and produce the row of Pascal's Triangle 
+corresponding to that row. So, the output should look like:
+
+  Prelude> :l problem0605.hs 
+  [1 of 1] Compiling Main             ( problem0605.hs, interpreted )
+  Ok, modules loaded: Main.
+  *Main> pascal 1
+  [1]
+  *Main> pascal 2
+  [1,1]
+  *Main> pascal 3
+  [1,2,1]
+  *Main> pascal 4
+  [1,3,3,1]
+  *Main> pascal 5
+  [1,4,6,4,1]
+
+Problem 6-7
+-----------
+
 
