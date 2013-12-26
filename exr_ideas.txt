@@ -2,9 +2,7 @@
 Physics calculations with newtypes wrapping Doubles that have Meters, Seconds. 
 Or better as types (aliases)?
 
-Recursion: the Djikstra method for GCD.
-
-Recursion: get the integer powers of a number. Do it again in tail-recursive form.
+Recursion: get the integer powers of a number (done). Do it again in tail-recursive form.
 
 Recursion: find if all the elements of a list are even.
 

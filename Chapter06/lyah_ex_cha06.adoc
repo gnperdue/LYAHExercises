@@ -40,7 +40,26 @@ corresponding to that row. So, the output should look like:
   *Main> pascal 5
   [1,4,6,4,1]
 
+Problem 6-6
+-----------
+Using recursion, implement Dijkstra's algorithm to find the greatest common denominator
+of two Integral numbers. (The algorithm is that if the two arguments are equal, they are
+the GCD, but if the first is larger than the second, recursively call the function again 
+the first minus the second and the second, while if the seond is larger, call the function
+again using the first and the second minus the first.)
+
+
 Problem 6-7
 -----------
+Compute the integer powers of a number recursively (so 2 to the 3rd power, or 4 to the -1st
+power, etc.). Use the `Fractional` type for the base and the Integral type for the numerator.
+Results should look like:
+
+  *Main> powers 2 3
+  8.0
+  *Main> powers 2 (-3)
+  0.125
+  *Main> powers 2 0
+  1.0
 
 
