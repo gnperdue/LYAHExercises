@@ -38,4 +38,12 @@ in this chapter. The Fibbonacci sequence begins with 1, 1 and each successive el
 the sum of the previous two. So the sequence goes 1, 1, 2, 3, 5, 8, 13, etc. (If you 
 are concerned about efficiency, don't be yet.)
 
+Problem 4-7
+-----------
+The trignometric sine and cosine functions (like all continuously differentiable functions)
+may be represented as an inifite polynomial called the Taylor expansion. For example,
+`sin x = x - x**3 / 3! + x**5 / 5! - ...` and
+`cos x = 1 - x**2 / 2! + x**4 / 4! - ...`.
+Using list comprehensions and `let` and `where` statements, implement sine and cosine 
+functions that compute those values to an order the user provides.
 
