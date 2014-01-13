@@ -1,0 +1,15 @@
+
+Problem 8-1
+-----------
+Implement the TrafficLight data type from the book and derive `Eq`, `Ord`, `Read`, 
+`Show`, and `Enum`. What happens if you try the following commands? 
+
+  succ Green
+  (succ . succ) Green
+  (succ . succ . succ) Green
+
+Write a new function, `advance` that does the right thing in this case.
+
+
+
+
