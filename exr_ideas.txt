@@ -10,4 +10,10 @@ Recursion: find the maximum value in a list & find the minumum.
 
 Recursion + H.O.F. find the maximum or minimum in a list, pass in the comparison fn.
 
+Recursion plus IO: Tower of Hanoi from JS Good Parts
+
+Recursion plus IO: Coin Problem from SICP
+
+Data Types: Coins
+
 IO: write a ``guess my number game'' that tracks the number of guesses made.
