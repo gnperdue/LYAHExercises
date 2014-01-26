@@ -1,7 +1,7 @@
 import Data.Char (digitToInt)
 
 getDigitPowerSum :: Int -> Int
-getDigitPowerSum n = sum $ map ((^5) . digitToInt) $ show n
+getDigitPowerSum = sum . map ((^5) . digitToInt) . show
 
 digitTuples :: [(Int,Int)]
 digitTuples = zip [2..] (map getDigitPowerSum [2..])
