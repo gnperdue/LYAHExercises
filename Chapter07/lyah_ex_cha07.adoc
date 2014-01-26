@@ -55,3 +55,15 @@ and `tangent` functions that return Doubles and instead of asking for an order,
 computes the functions to some accuracy specified inside the module. Add these 
 functions to your ``Numberary'' module under ``Trigonometric.hs''.
 
+Problem 7-9
+-----------
+In Data.Char there is a function, `digitToInt` that takes a +Char+ and changes 
+it to a +Int+, provide the character is a valid base 16 number (so, +0+ through
++f+, and it accepts upper-case characters). In the base environment there is a 
+function, `show` that changes a number into a string representation of that 
+number (it does other things too, try `:t show` in GHCi). Use these two functions
+to write a function that calculates the first number that is equal to the sum of
+the fifth power of its digits. For example, `93084 = 9^5 + 3^5 + 0^5 + 8^5 + 4^5`
+is equal to the sum of the fifth power of its digits, but it is not the _first_ 
+such number. (This question is inspired by Project Euler (http://projecteuler.net) 
+problem number 30.)
