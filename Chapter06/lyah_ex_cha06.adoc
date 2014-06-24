@@ -62,4 +62,8 @@ Results should look like:
   *Main> powers 2 0
   1.0
 
-
+Problem 6-8
+-----------
+Using recursion, write a function that computes compounding interest on given periodic
+depositions of capital. So, for example, how much money is in the bank at the end of the 
+if you depost one hundred dollars per month and earn one percent interest every month.
